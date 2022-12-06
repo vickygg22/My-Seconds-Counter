@@ -1,12 +1,40 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.mainContainer div {
+    display: inline-block;
+    color: white;
+    font-size: 60px;
+    background-color: #101010;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    border-left: solid #202020;
+    border-right: solid #202020;
+}
+.mainContainer{
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 140px;
+}
+.mainDiv{
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 140px;
+    margin-top: 30px;
+}
+.mainDiv div {
+    display: inline-block;
+    color: white;
+    font-size: 60px;
+    background-color: #101010;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    border-left: solid #202020;
+    border-right: solid #202020;
+}
+h2{
+    margin-top: 30px;
+    margin-bottom: -10px;
+}
